@@ -3,64 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Nouveau site</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1em 0;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 1em;
-            text-decoration: none;
-        }
-        main {
-            padding: 2em;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <meta name="description" content="Minecraft - Le jeu de construction et d'aventure en monde ouvert.">
+    <title>Minecraft</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Header -->
     <header>
-        <h1>Bienvenue surtesttesttestMon Petit Site</h1>
+        <div class="navbar">
+            <a href="#" class="logo">Minecraft</a>
+            <nav>
+                <ul>
+                    <li><a href="#features">Caractéristiques</a></li>
+                    <li><a href="#download">Téléchargement</a></li>
+                    <li><a href="#store">Boutique</a></li>
+                    <li><a href="#community">Communauté</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="#">Accueil</a>
-        <a href="#">À propos</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
-    <main>
-        <h2>À propos de nous</h2>
-        <p>Ceci est un exemple de site web simple. Vous pouvez ajouter plus de contenu ici pour décrire votre entreprise ou votre projet.</p>
-        <h2>Nos Services</h2>
-        <p>Découvrez les services que nous offrons. Vous pouvez lister vos services ici et ajouter des détails pour chaque service.</p>
-        <h2>Contactez-nous</h2>
-        <p>Si vous avez des questions ou besoin d'informations supplémentaires, n'hésitez pas à nous contacter.</p>
-    </main>
+
+    <!-- Main Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bienvenue dans le monde de Minecraft</h1>
+            <p>Construisez, explorez, survivez et créez dans un monde infini de possibilités.</p>
+            <a href="#download" class="cta-button">Téléchargez Minecraft</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Caractéristiques</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <h3>Construisez votre monde</h3>
+                <p>Construisez des structures incroyables dans un monde ouvert, généré de manière aléatoire.</p>
+            </div>
+            <div class="feature">
+                <h3>Explorez des environnements uniques</h3>
+                <p>Explorez des villages, des montagnes, des grottes et plus encore !</p>
+            </div>
+            <div class="feature">
+                <h3>Survivez à l'aventure</h3>
+                <p>Affrontez des créatures hostiles et survivez dans le monde hostile de Minecraft.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <h2>Téléchargez Minecraft</h2>
+        <p>Disponible sur Windows, macOS, et plus encore !</p>
+        <a href="https://www.minecraft.net/" class="cta-button">Télécharger maintenant</a>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2023 Mon Petit Site. Tous droits réservés.</p>
+        <div class="footer-content">
+            <p>&copy; 2025 Minecraft. Tous droits réservés.</p>
+            <ul class="socials">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
     </footer>
+
 </body>
 </html>
